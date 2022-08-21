@@ -31,7 +31,9 @@ export default function SimpleContainer() {
 
                     <h2>TIPS</h2>
 
-                    <p>Tout <b>bon</b> développeur sait se servir d'internet pour s'aider à débogguer, trouver des notices, des syntaxes... N'hésite pas à utiliser Google pour faire tes recherches et utiliser le site <a href="https://stackoverflow.com"  target="_blank">stackoverflow</a> !</p>
+                    <p>Tout <b>bon</b> développeur sait se servir d'internet pour s'aider à débogguer, trouver des notices, des syntaxes... N'hésite pas à utiliser Google pour faire tes recherches et utiliser le site <a href="https://stackoverflow.com" target="_blank">stackoverflow</a> !</p>
+                    
+                    <h1>ENJOY !</h1>
 
                 </Box>
             </Container>

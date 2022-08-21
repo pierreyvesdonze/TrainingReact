@@ -65,7 +65,7 @@ export default function BasicGrid() {
                 <div className='home-title-style'>
                     <h1>Donnes-moi du style !</h1>
                     <br />
-                    <p>Ah oui et stp, pourrais-tu changer la couleur du body ? J'aime la couleur bleue mais celle-ci me rend aveugle ! </p>
+                    <p>Ah oui et stp, pourrais-tu changer la couleur du body ? J'aime la couleur bleue mais celle-ci me rend aveugle ! Pourquoi pas essayer #112350 ?</p>
                 </div>
             </Box>
         </>

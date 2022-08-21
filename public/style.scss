@@ -10,12 +10,23 @@ VARIABLES
     --semi-transparent: rgba(255, 255, 255, 0.137);
 }
 
+/*
+******************************************
+BODY
+******************************************
+*/
 body {
     background-color: var(--body-bg);
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     overflow: hidden;
 }
 
+
+/*
+******************************************
+THEN
+******************************************
+*/
 .box-flex-center {
     margin: 25% auto;
     border-radius: 0 20%;
@@ -46,9 +57,37 @@ body {
     }
 }
 
+/*
+******************************************
+IMAGES
+******************************************
+*/
 .images-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/*
+******************************************
+HIDDEN
+******************************************
+*/
+.bonjour-hidden {
+    visibility: hidden;
+}
+.button-transparent {
+    margin-top: 25%;
+    margin-left: 35%;
+}
+
+/*
+******************************************
+SECRET
+******************************************
+*/
+.flex-center-form {
+    display: flex;
+    justify-content: center;
 }

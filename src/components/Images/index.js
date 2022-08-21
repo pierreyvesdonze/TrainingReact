@@ -29,10 +29,6 @@ export default function StandardImageList() {
 
 const itemData = [
     {
-        img: 'https://source.unsplash.com/yMSecCHsIBc',
-        title: 'Breakfast',
-    },
-    {
         img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
         title: 'Burger',
     },
@@ -49,7 +45,11 @@ const itemData = [
         title: 'Hats',
     },
     {
-        img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
+        img: 'https://source.unsplash.com/yMSecCHsIBc',
+        title: 'Cat',
+    },
+    {
+        img: 'https://source.unsplash.com/photo-1558642452-9d2a7deb7f62',
         title: 'Honey',
     },
     {

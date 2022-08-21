@@ -11,6 +11,8 @@ import Home from './components/Home';
 import First from './components/first';
 import Then from './components/then';
 import Images from './components/Images';
+import Hidden from './components/Hidden';
+import Secret from './components/Secret';
 
 export default function App() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -58,6 +60,12 @@ export default function App() {
           <Link to={'/images'}>
             <MenuItem onClick={handleClose}>Images</MenuItem>
           </Link>
+          <Link to={'/hidden'}>
+            <MenuItem onClick={handleClose}>Hidden</MenuItem>
+          </Link>
+          <Link to={'/secret'}>
+            <MenuItem onClick={handleClose}>Secret</MenuItem>
+          </Link>
         </Menu>
 
         <Routes>
@@ -67,7 +75,6 @@ export default function App() {
               <Intro />
             }
           >
-            
           </Route>
           <Route
             exact path='/home'
@@ -94,6 +101,20 @@ export default function App() {
             exact path='/images'
             element={
               <Images />
+            }
+          >
+          </Route>
+          <Route
+            exact path='/hidden'
+            element={
+              <Hidden />
+            }
+          >
+          </Route>
+          <Route
+            exact path='/secret'
+            element={
+              <Secret />
             }
           >
           </Route>
