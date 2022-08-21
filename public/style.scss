@@ -1,0 +1,54 @@
+/*
+******************************************
+VARIABLES
+******************************************
+*/
+:root {
+    --body-bg: blue;
+    --main-color: white;
+    --primary-color: #526535;
+    --semi-transparent: rgba(255, 255, 255, 0.137);
+}
+
+body {
+    background-color: var(--body-bg);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    overflow: hidden;
+}
+
+.box-flex-center {
+    margin: 25% auto;
+    border-radius: 0 20%;
+}
+.active-flex-click {
+    background-color: red !important;
+}
+.box-flex-center-btn {
+    position: relative;
+    top: 50%;
+    height: 35px;
+    width: 150px;
+    font-size: 1em;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    outline: none;
+    background-color: var(--body-bg);
+    color: white;
+    transition: ease-in-out 0.2s;
+    &:hover {
+        background-color: var(--body-bg);
+        height: 70px;
+        width: 190px;
+        font-size: 2em;
+        border-radius: 0% 20px 0% 0%;
+        cursor: pointer;
+        transition: ease-in-out 0.1s;
+    }
+}
+
+.images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
