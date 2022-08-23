@@ -13,6 +13,8 @@ import Then from './components/then';
 import Images from './components/Images';
 import Hidden from './components/Hidden';
 import Secret from './components/Secret';
+import Door from './components/Door';
+import Final from './components/Final';
 
 export default function App() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -115,6 +117,20 @@ export default function App() {
             exact path='/secret'
             element={
               <Secret />
+            }
+          >
+          </Route>
+          <Route
+            exact path='/door'
+            element={
+              <Door />
+            }
+          >
+          </Route>
+          <Route
+            exact path='/final'
+            element={
+              <Final />
             }
           >
           </Route>

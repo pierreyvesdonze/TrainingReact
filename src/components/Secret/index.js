@@ -10,8 +10,7 @@ export default function BasicTextFields() {
         let userInput = document.querySelector('#outlined-basic').value;
         let pwdSession = sessionStorage.getItem('firstPassword');
         console.log(pwdSession);
-            userInput === pwdSession ? alert('Bravo ! Tu as trouvé le mot de passe ! Tu as passé le premier niveau !! ') : alert("Ah, il semblerait que le mot de passe ait changé entre temps. Vérifie ta console pour un nouveau de passe !");
-
+            userInput === pwdSession ? alert("Bravo ! Tu as trouvé le mot de passe ! Rdv sur l'url /door pour la suite ;)") : alert("Ah, il semblerait que le mot de passe ait changé entre temps. Vérifie ta console pour un nouveau de passe !");
     }
 
     return (
