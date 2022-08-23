@@ -3,7 +3,7 @@
 
 Si tu vois cette page c'est que tu as reçu les instructions pour installer NodeJs, React ainsi que Git. Tu auras besoin de Git pour partager ton travail sur ta branche pour que l'on puisse voir ton travail.
 
-Pour se faire et avant toute chose tu auras besoin de te brancher sur la bonne branche. Voici la commande à effectuer dans ton terminal, à la racine de ton projet (par ex. /var/www/html/training-react) : 
+Pour se faire et avant toute chose tu auras besoin de te brancher sur la bonne branche. Voici la commande à effectuer dans ton terminal, à la racine de ton projet (par ex. /var/www/html/training-react) ::
 
 ### git checkout -b alex
 
