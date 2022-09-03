@@ -68,6 +68,21 @@ step 1
 
 /*
 ******************************************
+first
+******************************************
+*/
+.container-first-items {
+  display: flex;
+  justify-content: center;
+}
+
+.first-item:hover {
+  background-color: #924500 !important;
+  color: var(--main-color);
+}
+
+/*
+******************************************
 THEN
 ******************************************
 */

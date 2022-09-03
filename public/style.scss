@@ -67,8 +67,23 @@ step 1
 {
   background-color: #042037 !important;
   height: 160px;
+}
+
+/*
+******************************************
+first
+******************************************
+*/
+.container-first-items {
+display: flex;
+justify-content: center;
 
 }
+.first-item:hover
+{
+  background-color: #924500 !important;
+  color: var(--main-color);}
+  
 
 /*
 ******************************************
